@@ -35,7 +35,7 @@ st.title("this is the dashboard of the lab 1")
 if st.sidebar.button("uber data"):
     st.subheader("uber data")
 
-    file_path = "../uber-raw-data-apr14.csv"
+    file_path = "uber-raw-data-apr14.csv"
 
     @log_time
     def read_file(file_path):
@@ -286,7 +286,7 @@ if st.sidebar.button("uber data"):
 if st.sidebar.button("ny trips data"):
     st.subheader("ny trips data ")
 
-    file_path = "../ny-trips-data.csv"
+    file_path = "ny-trips-data.csv"
 
     # reading csv into dataframe
     @log_time
